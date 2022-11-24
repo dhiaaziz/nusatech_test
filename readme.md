@@ -35,3 +35,30 @@ sign in
 sign up
 cron jalan kurang kirim email
 
+
+INSTALASI
+
+1) duplicate .env.example dan rename menjadi .env. Kemudian isi konfigurasi database sesuai config development local anda.
+
+2) Pastikan database dengan nama yang sama dengan config file```.env``` variabel DB_NAME usah dibuat pada database engine anda.
+
+
+3) jalankan perintah npm install
+
+```
+npm install
+```
+
+4) Jalankan perintah dbsync untuk menjalankan sinkronasi database dengan model yang sudah dirancang menggunakan sequelize
+```
+node dbsync
+
+```
+
+5) anda dapat mengubah settingan port pada file server.js di folder root
+
+6) jalankan perintah berikut untuk memulai server
+
+```
+npm run dev
+```
