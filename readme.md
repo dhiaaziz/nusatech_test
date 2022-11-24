@@ -1,3 +1,4 @@
+## TASK
 1. relational database (user profile)
     1. data user berisi  : id user, email, password (encrypted),status(pending,registered,verified)
     2. data wallet/balance user (1 id_user ≥0 id_wallet ≤ total id_currency) berisi :id_wallet,  id_currency, id_user, amount
@@ -18,7 +19,7 @@ API yang harus di siapkan :
 4. put user email (ganti email yang saat ini dipakai) ⇒ verifikasi email lama dulu ⇒kemudian verifikasi email baru
 
 
-route:
+## Route tersedia
 - POST -> /user/signup -> input body {
   email,
   password,
@@ -30,13 +31,13 @@ route:
   password,
 }
 
-done list 
+## Done List 
 - sign in
 - sign up
 - cron kirim email register => isinya pin
 
 
-INSTALASI
+## Instalasi
 
 1) duplicate .env.example dan rename menjadi .env. Kemudian isi konfigurasi database sesuai config development local anda.
 
