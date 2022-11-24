@@ -31,9 +31,9 @@ route:
 }
 
 done list 
-sign in
-sign up
-cron jalan kurang kirim email
+- sign in
+- sign up
+- cron kirim email register => isinya pin
 
 
 INSTALASI
