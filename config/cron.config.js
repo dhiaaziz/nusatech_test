@@ -11,5 +11,9 @@ module.exports = {
   sendEmailPin: {
       frequency: '*/10 * * * * *', //per 10 seconds
       handler: '../module/cronHandlers/sendEmailPin'
+  },
+  setPinExpired: {
+      frequency: '*/10 * * * * *', //per 10 seconds
+      handler: '../module/cronHandlers/setPinExpired'
   }
 }

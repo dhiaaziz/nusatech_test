@@ -35,6 +35,7 @@ API yang harus di siapkan :
 - sign in
 - sign up
 - cron kirim email register => isinya pin
+- cron expired pin
 
 
 ## Instalasi

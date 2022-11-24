@@ -1,7 +1,6 @@
 const cron = require('node-cron');
 const { resolve } = require('path');
 
-
 module.exports = {
     initCrons: (config) => {
         Object.keys(config).forEach(key => {
