@@ -11,7 +11,6 @@ const cron = require('./bin/cron')
 //middleware
 const errorHandler = require('./middlewares/error-handler');
 
-
 app.use(morgan('dev'))
 app.use(cors())
 app.use(express.raw())
